@@ -9,7 +9,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 setup(
     name='mikrotikrscparser',
     version='0.0.1',
-    packages=find_packages(include=['rscparser'], exclude=['tests*']),
+    packages=find_packages(include=['mikrotikrscparser'], exclude=['tests*']),
     url='https://github.com/muqiuq/mikrotikrscparser',
     license='MIT',
     description='MikroTik RSC file parser library',
